@@ -1,0 +1,591 @@
+This is a small glossary of recurring VIPRPG terminology
+which might help you to better understand and appreciate
+certain slang/memes/etc seen in Wind I Creator
+
+This is by NO MEANS comprehensive and attempts (poorly) to
+fit only within the scope of points of interest for
+Wind I Creator.
+
+Note that due to the ever-changing and memetic nature
+of VIPRPG characters, memes, slang, etc, these are not
+to be taken as an absolute, but as a general reference.
+Even VIPPERs themselves don't always hold strictly to
+any of these things, and like with any memes/tropes they
+are subject to subversion, inversion, and other manner of
+usage.
+
+
+--- Elementals / Materialized / Personified Characters ---
+
+An extremely common and recurring VIPRPG trope is
+personified, materialized versions of items, spells,
+and other things which are normally less concrete.
+
+Derived from "具体化" (gutaika) and "具現化" (gugenka) -
+embodiment, materialization, actualization, realization,
+taking form, taking shape
+
+Closely related to and, for the purposes of this document,
+more or less interchangeable with "擬人化" (gijikna)/personified/
+anthropomorphized characters.
+
+I have elected to disambiguate this on a character-type
+basis. Thus, Elemental magic characters will simply be
+referred to as "Elementals" while other types of characters
+based on other things may be referred to differently.
+---------------------------
+
+--- Elemental Character Names/Nicknames ---
+
+Elemental Magic characters are "officially" named after
+whatever spell they are based on. However, they are often
+called by abbreviated forms as well.
+
+Examples:
+Water I -> Watri/Wateri
+Wind I -> Windi
+Starlight I -> Lighti
+Burst I -> Bursti
+
+...and so forth.
+Yes, the -i is intentional and based on the Roman Numeral I.
+
+This is accurate to the Japanese nicknaming arrangement where
+Wind I -> ウィンディ (Windi) in terms of phonetics.
+
+...and so forth.
+
+Yes, this means some pretty unfortunate things for
+Darkness I's short name, but if you can't handle that,
+I don't know what to tell you.
+
+You could reasonably drop the -i and replace it with a 'y'
+but since this was clearly a deliberate choice by VIPPERs,
+it is difficult for me to argue y over i.
+
+Mileage varies on this, however, and the -y ending gets used
+fairly often. Unless explicitly written out -y in English and
+a core component of something, I'll tend to opt for the -i ending.
+
+Though this does not necessarily apply to Wind I Creator,
+the III-level spells have a similar naming wordplay theme.
+
+Wind III = ウィンドＩＩＩ = Wind San
+Wind III = ウィンドさん = Wind San
+Since 3 and the "san" honorific are both pronounced "san"
+there may be times when these characters are referred to
+interchangeably as one of several things:
+Mr/Ms/etc (Name)
+(Name) III
+(Name) Three
+All down to context and the exact usage in a given dialogue.
+---------------------------
+
+--- Wind I / Windi ---
+
+The (arguably) heroine of Wind I Creator.
+Normally a sickly character who spends many a day
+in the hospital, and particularly in this game.
+She could be said to be the physical manifestation
+of both Wind and the Common Cold. Thanks, Japanese.
+
+風 = Kaze = Wind
+風邪 = Kaze = Cold
+
+To deal with this wordplay, I occasionally render her description
+as the "physical manifestation of the Ill Wind." 
+
+Certain other VIPRPGs play up her illness more or less than others.
+
+Everybody loves Wind I.
+---------------------------
+
+--- Heal III ---
+
+The (arguably) heroine of Wind I Creator.
+Just as the game portrays, she is a doctor, and
+the owner/operator of her clinic.
+
+Wind I is a recurring, and in some works,
+permanent fixture in her clinic.
+
+There honestly isn't that much I have to say about
+her.
+---------------------------
+
+--- Alex ---
+
+Default Hero character of RPG Maker 2000.
+
+Serves as one of the random intruder encounters while
+working jobs in Wind I Creator.
+---------------------------
+
+--- Linux ---
+
+JP Name: リナックス (Rinakkusu/Linakkusu)
+
+Is first thought to have appeared in the Fire Emblem-like
+RPG Maker 2000 SRPG, "Hanyou 6."
+
+Though not relevant to this game, she is often called by the
+nickname "リナ" (Rina) (リナックス->リナ) (Rinakkusu->Rina).
+In works where this nickname is used, it will be rendered
+as "Linny."
+---------------------------
+
+--- Water I ---
+
+The youngest and most popular of the Water sisters.
+Was not originally that popular, but people seem to have
+become endeared to her more and more with each passing
+VIPRPG festival, which helped her ascend from throwaway
+character to one who appears regularly in many games.
+
+One of the companions you adventure with in Wind I Creator.
+---------------------------
+
+--- Flame I ---
+
+A Flame series elemental who fashions herself a
+Heian-era noble. In the Japanese, refers to herself
+as 麻呂 = Maro = I/me. This is not only a very old
+style way to refer to oneself, but pretty much gives
+away the fact that a character is an aristocrat.
+And, even more specifically, aristocracy from
+Japan's Heian era.
+
+The rendering of her English speech is meant to capture
+that same aristocratic sense without going too hard into
+"screw you, look it up yourself" direction.
+
+However, the subtitled parts in blue for certain lines of
+hers ARE the same exact way in Japanese, though I'd be
+surprised if a native Japanese player needed those to know
+what 烏帽子 (eboshi) are, or who 紫式部 (Murasaki Shikibu) was.
+---------------------------
+
+--- Darkness I ---
+
+JP Name: ダークネスI (Darkness I)
+Commonly referred to as やみいち (Yami Ichi) and やみっち (Yamicchi).
+闇 = Yami = Darkness
+一 = Ichi = One
+市 = Ichi = Market
+There is wordplay in her nicknames which unfortunately is not
+easy to find an equivalent to in English, since Yamiichi is
+effectively both Dark 1 and Black Market.
+
+This has the unfortunate side effect of her abbreviated
+nickname being "Darki." (Dark I -> DarkI -> Darki).
+Unfortunate, but I'm not changing it.
+
+Yes, she engages in questionable avenues of commerce and is
+often shown to be willing to do any number of dark deeds
+for the sake of money.
+
+See games such as "Darkness I's Black Market Dungeon"
+(another EXCELLENT title by the creator of Wind I Creator)
+
+Is the protagonist AND villain in "Stars and Lights."
+
+Portrayed as something of a Yandere in certain works, but
+a real hard worker who sometimes has trouble accepting
+help from others... unless she's the one explicitly
+demanding that they help her.
+---------------------------
+
+--- DL;OK ---
+Short for "Dark Lord; OK"
+
+DL;OK was chosen because of similar memetic shorthand
+such as TL;DR (too lazy, didn't read) and the like.
+
+Originally derived from "魔王把握" (Maou Haaku) which is the
+barest basic interaction possible between a protagonist and
+the King which kicks off a game. This is used as a noun as
+well as a verb at various times.
+
+If a game's main goal is not the Dark Lord, DL could be
+just about anything. An example of this can be seen in the
+very wonderful "Moshimon Quest Monsters" once the main quest
+is cleared.
+
+Long form:
+King
+"The Dark Lord has stolen our potato chips.
+ Go take care of him."
+
+Alex
+"Understood."
+
+Abbreviated form:
+King
+"Dark Lord."
+
+Alex
+"OK."
+
+One of these does NOT happen in Wind I Creator, but amusingly
+Wind I can take jobs at the Dark Lord's Castle to be an enemy
+who might prevent the Hero from completing one of these.
+---------------------------
+
+--- Potato Chips ---
+
+A recurring macguffin seen in countless VIPRPGs.
+When these get stolen, it tends to kick off a DL;OK.
+
+Derived from "ポテチ" (Potechi) which is indeed
+POTAto CHIps abbreviated in a manner extremely common
+in the Japanese language.
+
+Barely, if at all, referred to in Wind I Creator.
+---------------------------
+
+--- Gomez ---
+
+Gay. Pirate. Enjoys buttfucking Alex.
+Yup. Many DL;OKs in shitpost games end with this.
+It's not always just Alex either.
+
+Does not make a major appearance in Wind I Creator.
+---------------------------
+
+--- Dark Lord Army / Team Dark Lord ---
+
+Derived from "魔王軍" (Maou Gun).
+
+Yes, I know it can be "Demon King" and other
+permutations. I went with Dark Lord.
+
+Army/Team are used interchangeably depending on the
+mood/tone/character speaking and other factors.
+
+Characters in this category include, but are not limited to:
+	Bosses/Big-wigs
+Dark Lord
+Dark Lord's Daughter (Mebius)
+Mrs. Dark Lord
+Lady Dark Lord (Female version of the Dark Lord himself)
+
+	Team Dark Lord Elite "Four" (Yes, there are 5)
+The Fifth Reaper
+Daero
+Dragonath
+Nin-Nin
+Musha
+
+	Lesser Characters
+Dragon/Li'l Dragon/Girl Dragon (Draco)
+Dragon Knight/Dragon Knightess
+Death Sheep
+Minotaur
+
+Other lesser characters/recurring monsters/etc
+appear as well.
+---------------------------
+
+--- Knigh Army / Team Knigh ---
+
+Derived from "ナイ軍" (Nai Gun).
+
+Yes, it is really "Knigh." Scroll down to the Monsters Section
+and view Undead Knigh further for proof.
+
+Characters in this category include, but are not limited to:
+	Bosses/Big-Wigs
+Undead Knigh
+Carbuncle
+Cait-Sith
+
+	Team Knigh Elite "Four" & Others
+The Fake 5th Reaper
+Fake Daero
+Fake Dark Elf
+2k3 Dark Elf
+Aubergonath
+Zan-Nin-Nin
+Fake Musha
+	
+	"Dark" versions of hero characters:
+Axel (Dark Alex)
+Erolia (Dark Lilia)
+Dark Daisy
+Diona (Dark Fiona)
+Dinux (Dark Linux)
+Dark Lenux
+
+Yeah, there's a LOT of characters.
+The 偽/fake/false characters are often, despite the title,
+fully-fledged characters in their own right and not just
+impostors/pale imitators. But that varies from work to work.
+---------------------------
+
+--- Undead Knigh ---
+
+RPG Maker 2k3 introduced a foe called
+アンデッドナイト "Undead Knight."
+
+RPG Maker 2k3 also has a 7 Japanese charater
+restriction for hero names.
+
+So, when people went to use him as a character, they
+had to call him アンデッドナイ, dropping the last letter,
+resulting in Undead Knigh. This stuck as a name.
+
+CONVENIENTLY similar restrictions in English 2k3 make
+it so that trying to name a character "Undead Knight"
+is ALSO one letter too long, resulting in "Undead Knigh."
+One of the rare moments where the translation writes itself.
+
+Entertainingly, his sword suffers from a similar naming
+thing (アンデッドソード->アンデッドソー) which itself STILL works in
+English.... sort of.
+
+(Undead Knigh's sword is a Rapier)
+Undead Rapier -> Undead Rapie
+
+Japanese simply calls it "Undead Sword" which would be
+"Undead Swor" and, while that is more entertaining,
+is not the same at all since shortening that word
+would be arbitrary rather than forced.
+---------------------------
+
+--- Harpagon ---
+
+Harpy + Dragonath
+
+JP Name: ハーナス (Ha-nasu)
+Abbreviated/Fused form of HArpy + DragoNATH
+English name rendered as fused form of HARPy + DrAGONath
+
+If you can think of a better way to render this in
+English, I'm all ears, so please let me know in whatever
+thread you found this game.
+
+Don't ask how this works, but in various VIPRPG works
+Dragonath and Harpy are depicted a couple, and this monster
+is the resulting baby.
+---------------------------
+
+--- Mr. Batty ---
+
+Yes, same name as those from the Mother series games.
+---------------------------
+
+--- Cheer Penguin ---
+
+JP Name: もちべぺんぎん (Mochibe Pengin)
+Mochibe = Motivation
+
+People who don't possess sufficient Mochibe don't make it
+in time/at all to submit their VIPRPG Festival Entries.
+Insufficient motivation is the #1 cause of games going
+Eternal.
+---------------------------
+
+--- Nishiwaki Scizza ---
+
+JP Name: シーザー西脇 (Shi-za- Nishiwaki)
+Name could reasonably be rendered as "Caesar" but given
+that it's a crab with scissor-like claws, and a lack of
+evidence supporting that its name is Caesar, it's hard to
+justify such an angle. "Scizza" is meant to be prounounced
+like "scissor" in any case.
+
+A once-common and recurring ASCII art crab shitpost in dying
+VIPRPG dev threads. Though ASCII art hasn't fallen completely
+out of fashion on JP forums like it has on Western ones, its
+appearances aren't as frequent as it may have been before.
+Its appearance in VIPRPGs is also pretty infrequent, but
+this depends entirely on the creator's taste.
+
+(V) ∧_∧　(V)
+　　ヽ(＾ヮ＾)ノ　 "I'll snip ya to ribbons!"
+　　　ノ￣ゝ             
+---------------------------
+
+--- Aubergonath ---
+
+JP Name: ドラゴなすーん (Doragonasu-n)
+Dragonath + Nasu (Nasu = Eggplant/Aubergine)
+Hence: Aubergonath = AUBERgine + DraGONATH
+
+Yeah, that's the best I could come up with for the
+name.
+---------------------------
+
+--- Canael ---
+
+JP Name: カナエール (叶えーる) (Kanae-ru)
+Kanaeru = to grant/fulfill (a wish/request)
+
+English name rendered as it is to evoke that sort of
+Biblical, angelic sense. It's a god, after all.
+
+The polar opposite of Kotowaru.
+
+Originally found at the following website:
+http://ganbaruzo.fc2web.com/kanaesetu.html
+
+The website explains that Canael is a granter of
+wishes and goes into significant details about
+wishing guidelines.
+
+Per the website, the name/design are based on:
+
+>The name and meaning of Canael is based on the phrase "Negai wo Kanaeru (Canael)" (grant a wish)
+>The yellow star represents the power of success, development, and growth
+>The red heart represents the power of love and marriage
+>The blue V mark represents the power of victory
+>The smiling face represents the power of peace, cooperation, health, and harmony 
+---------------------------
+
+--- Kotowaru ---
+
+JP Name: コトワール (断ーる) (Kotowa-ru)
+Kotowaru = to deny (a wish/request)
+
+A straight up transliteration of the JP word "Kotowaru."
+Sadly sounds less biblical than it could, but the only other
+alternatives I could think of sounded kind of like crap and it's
+hard to swing making "denial" sound similar without making it look
+and sound strange. (Deniael? Just looks odd)
+
+The polar opposite of Canael.
+---------------------------
+
+--- Eternal/Nega-Eternal ---
+
+JP Name: エターナル (Eta-naru)
+Eternal
+
+The physical embodiment of the concept of "eternal."
+Derived from the VIPRPG verb エターなる which is a fusion of
+>eternal エター (Eta-)
+>become なる (Naru)
+
+When a game does not get completed, it goes eternally unfinished.
+Many submission pages for VIPRPGs do not feature download
+links to games, but instead read ETERNAL to denote that
+there was an attempt, but no finished product. Avoiding
+going eternal is the #1 goal of all VIPPERs.
+---------------------------
+
+--- Dragon ---
+
+Often speaks in a hip-hop/gangster style with
+Japanese full-width capitalized ＹＯＵ/ＹＯ as well as
+Japanese sentence-end particles (Na, Ne, Sa, Ze etc).
+
+This is crudely approximated in English with
+S P A C E D  typing,  Y O !
+
+Dragon is USUALLY the male RPG Maker 2000 RTP Dragon
+enemy in appearance, but often transforms into
+a diminutive girl dragon for various reasons.
+---------------------------
+
+--- Draco ---
+
+Derived from ドラ子 (Dorako -> Draco)
+Dora = Dragon, abbreviated.
+子 = Ko, Kanji for "child" but often a component of female
+names. Unfortunately some of this feminine image is lost
+on its way to English as Draco is traditionally a masculine
+sounding name, but what can you do?
+
+This is the female form of Dragon. Depending on the
+game, this can be a stand-alone character, or Dragon
+may transform into her.
+---------------------------
+
+--- Dragon Knightess ---
+
+JP Name: ドナ子 (Donako)
+Dona = Dragon Knight, abbreviated (DOragon NAito)
+子 = Ko, Kanji for "child" but often a component of female
+names.
+---------------------------
+
+--- Daero/Dark Elf ---
+
+Dark Elf who is a hentai/pervert.
+Dark Elf + Ero -> Dark Ero -> Daero.
+
+Those with background in other VIPRPGs are well aware
+of Daero's obsession with certain female characters,
+especially Helen.
+---------------------------
+
+--- The Fake 5th Reaper ---
+
+Japanese name: "偽死神五世" (Nise-Shinigami Gosei)
+The 五世 bit can be likened to a Roman Numeral V.
+5th is what I have chosen because it seems to work
+better in a name and avoids potential ambiguity
+(Reaper VEE? Reaper 5? Reaper THE FIFTH?).
+
+Nickname: "Kiri"
+---------------------------
+
+--- Trish ---
+
+Is best girl. Not originally from anything in particular,
+just kind of sprung up as a recurring character in the
+mid to late 2000s. I couldn't even tell you which game
+she first appeared in.
+
+Probably puts in more work than ANY of the other underworld
+characters combined, but who's keeping track?
+---------------------------
+
+--- Hell ---
+
+Queen of the Underworld.
+Her love of potato chips is a recurring character
+trait in various VIP works.
+---------------------------
+
+--- Mebius ---
+JP Name: メビウス (Mebiusu)
+
+The Dark Lord's daughter.
+
+Despite this, is often depicted as friends with
+Alex and Linux.
+
+Interchangeably called Mebius/Dark Lord's Daughter
+throughout VIP works. Shortened nickname in certain
+works (especially when hanging out with Linux)
+is "Meeby."
+
+Occasionally rendered as "Moebius," "Mobius," or
+"Möbius" depending on the work/creator. Indeed,
+the JP word メビウスの輪 (Mebiusu no Wa/Möbius Ring)
+is the correct technical terminology for this
+mathematical phenomenon.
+
+Also, I just prefer the "Mebius" rendering because of
+that god awful GBA Zone of the Enders title which
+features a character of the same name.
+---------------------------
+
+--- Moshimo Force ---
+
+JP Name: もしもの力 (Moshimo no Chikara)
+Moshimo = If...
+Chikara = Power
+
+Moshimo is a common VIPRPG game title component which
+means If... And so common, indeed, that it is
+nearly synonymous with VIPRPGs. There is, after all,
+a long-running series of games/story collections which are simply
+"Moshimo X ga Y dattara" (If X was Y).
+
+Moshimo Force is the ultimate power, the realized form of
+Moshimo. It is the power to blow away a foe with
+a single touch. Many a DL;OK ends with the hero simply
+touching the Dark Lord once and sending him careening
+off-screen, never to be seen again.

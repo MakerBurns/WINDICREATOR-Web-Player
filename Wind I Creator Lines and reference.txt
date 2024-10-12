@@ -1,0 +1,1961 @@
+Wind I Creator Text Related
+
+---------------------------
+Translator's Memo
+---------------------------
+
+I am including this document in the release of this
+fine VIPRPG for a few reasons:
+>Anyone who wants to TL this to a different language
+ later can benefit from some of this being printed
+ out here rather than having to pore over the images
+ in the pictures folder for hours and hours
+>Lots of useful TL notes scattered all around
+>A few sections which detail my thought process on
+ the script translation itself. You will see it is
+ a rather iterative process.
+
+Kiito's games are never easy to translate because of
+the sheer workload of getting, and adapting, the
+text images to English while making sure everything
+stays consistent and that any compromises or adjustments
+that must be made are done with purpose rather than
+serving as a bandaid.
+
+Some changes to the game's event code were necessary as
+a matter of course due to the differences between the
+EN/JP pair. In addition, careful word choice and font
+selection were required to ensure that the full meaning
+of the text was conveyed, while simultaneously fitting
+into the often limited space available.
+
+I try not to make drastic changes to the interface if it
+can be avoided. For example, the item/skill description
+boxes are the same dimensions as the JP originals.
+However, certain things like the attack selections
+were modified slightly to accommodate the greater amount
+of English text required. However, these edits were made
+tastefully as to preserve the original feel and presentation
+of the game in the Japanese.
+
+Originally, some of the effect/status text pops were done
+in what seems to be a purely handwritten font. I opted NOT
+do do the same in English and selected a familiar brush
+script font for the sake of aesthetics and consistency.
+
+Overall, the script itself is not that large and therefore
+I have been able to give it the sort of care I feel it
+deserves. Translating a VIPRPG is not a task to take
+lightly as you should have sufficient background in, and
+have played, a variety of VIPRPGs from several makers,
+including any other titles produced by the maker of the
+work you intend to TL. I feel that this allows you to get
+into the head of the creator a bit and understand certain
+recurring things, habits, word choice, and so forth, that
+might set theirs apart from others.
+
+---------------------------
+Color/Icon section
+---------------------------
+$o Item
+$p Trade Item
+$B Equip
+
+\c[2]=orange
+\c[7]=pink
+\c[11]=gold
+\c[15]=green/equip
+
+\c[1] = Frost
+\c[4] = Lightning
+\c[5] = fire
+\c[9] = aero
+\c[10] = Water
+\c[12] = Light
+\c[16] = dark
+\c[19] = earth
+\c[6] = passive
+
+
+$D = Passive
+
+$A = CT
+
+$C = Auto, Single
+
+$
+---------------------------
+skill section
+---------------------------
+
+\c[2]Blow Away         \c[4]$ACT   /10\c[0]
+Slay a foe instantly using
+a normal attack.
+
+\c[2]Muscle Brain       \c[6]$DPassive\c[0]
+Physical attack power +50%,
+but you cannot use items
+during battle.
+
+\c[2]Elemental Mastery  \c[6]$DPassive\c[0]
+Deal 20% more damage to foes
+when you hit them with
+elements they are weak to.
+
+\c[2]Never Say Die!        \c[10]$CAuto\c[0]
+1/3 of the Wind Is who fall
+in battle will be revived
+after the battle.
+
+\c[2]Powerful Defense   \c[6]$DPassive\c[0]
+When using Defense Focus,
+lose 40% of Wind Is instead
+of the usual 50%.
+
+\c[2]Speed King         \c[6]$DPassive\c[0]
+Agility + 50%,
+but you cannot use items
+during battle.
+
+\c[2]Brace For Impact   \c[6]$DPassive\c[0]
+Damage taken is reduced by
+25%, but you cannot use
+power up items in battle.
+
+\c[2]Sniper             \c[6]$DPassive\c[0]
+Critical hits deal 50% more
+damage than usual.
+
+\c[2]Heroic Compensation   \c[10]$CAuto\c[0]
+Critical hit rate is 100%
+when only 1 Wind I remains.
+
+\c[2]Sword Dance       \c[4]$ACT   / 4\c[0]
+Physical attack power is
+multiplied by (AGI/Foe AGI)
+on the turn this is used.
+
+\c[2]Counterattack Edge    \c[10]$CAuto\c[0]
+Physical attack power +30%
+on turns where you take
+damage.
+
+\c[2]Doublecast        \c[4]$ACT   / 4\c[0]
+Allows you to cast 2 spells
+in a single turn.
+
+
+\c[2]Last Stand            \c[10]$CAuto\c[0]
+Magic attack power is 200%
+when only 1 Wind I remains.
+
+\c[2]Camouflage        \c[4]$ACT   / 4\c[0]
+Allows guaranteed escape
+from normal encounters.
+
+
+\c[2]Proliferation         \c[10]$CAuto\c[0]
+For each step taken while
+adventuring, gain 1% of your
+maximum Wind I capacity.
+
+\c[2]Kingly Authority   \c[6]$DPassive\c[0]
+Doubles the number of steps
+before facing an encounter
+while adventuring.
+
+\c[2]Armament Hunter    \c[6]$DPassive\c[0]
+Increases the drop rate for
+\c[15]$BEquip\c[0] items.
+
+\c[2]Outside Walker     \c[6]$DPassive\c[0]
+While adventuring, increases
+action count by 5.
+
+\c[2]Take The Lead     \c[4]$ACT   / 6\c[0]
+Attack first, ignoring the
+enemy's AGI.
+
+\c[2]Grit Your Teeth     \c[10]$CSingle\c[0]
+Guarantees 1 Wind I will
+remain if damage is taken
+that would cause a wipe.
+
+\c[2]Commoner's Cure    \c[6]$DPassive\c[0]
+Chance of recovery from
+status ailments +20%.
+
+\c[2]Emergency Rations  \c[6]$DPassive\c[0]
+While adventuring, increases
+action count by 5.
+
+\c[2]Skilled Haggler    \c[6]$DPassive\c[0]
+Receive 1/3 the value of
+items rather than 1/4 when
+selling them off.
+
+\c[2]Mega Muscle           \c[10]$CAuto\c[0]
+STR+10% while in battle.
+
+\c[2]Kanabo                \c[10]$CAuto\c[0] //NOTICE: "Certain" = male here.
+Reduces certain foes' HP by                  //It doesn't specify this in the JP
+50% during the first turn of                 //skill description either, but it is
+battle.                                      //nice to know. (Datamined from event code)
+
+\c[2]Temptation        \c[4]$ACT   /10\c[0]
+\c[5]Confuses\c[0] a foe.
+\c[5]Foe may attack itself.
+\c[5]Natural recovery rate: 25%.
+
+\c[2]Utsusemi            \c[4]$ASingle\c[0]
+Dodge two attacks.
+
+\c[2]Parental Affection\c[0]       /10
+????????????
+
+\c[2]Like A Reaper      \c[6]$DPassive\c[0]
+Gain immunity to status
+effects, but also lose the
+ability to revive Wind Is.
+
+\c[2]Malevolent Stalker \c[6]$DPassive\c[0]
+Prevents foes from escaping.
+
+\c[2]Death Wish         \c[6]$DPassive\c[0]
+Deal 30% more damage, but
+lose 10% of your Wind Is at
+the end of each turn.
+
+\c[2]Art of War            \c[10]$CAuto\c[0]
+INT+10% during battle.
+
+\c[2]Art of Magic       \c[6]$DPassive\c[0]
+Magic attack power +10%.
+
+\c[2]Poison Cooking    \c[4]$ACT   /10\c[0]
+\c[5]Poisons\c[0] a foe.
+\c[5]Deals 1/16 Max HP damage
+\c[5]at the end of each turn.
+
+\c[2]Haze              \c[4]$ACT   /10\c[0]
+\c[5]Poisons\c[0] and \c[5]confuses\c[0] a foe.
+\c[5]Causes damage each turn.
+\c[5]Foe may attack itself.
+
+\c[2]Softboiled            \c[10]$CAuto\c[0] //NOTICE: Pokemon move, same name.
+10% chance per step taken to                 //Well, kind of. It's "egg lay" in JP.
+recover 10% of your maximum                  //Kiito loves his pokemon moves in his
+Wind Is while adventuring.                   //VIPRPGs.
+
+\c[2]Endure            \c[4]$ACT   /10\c[0]
+Reduces any damage taken to
+0 on the turn this is used.
+
+\c[2]Normie A           \c[6]$DPassive\c[0] //NOTICE: Normie ARMORED
+Shortens the wait time (CT)                 //Refers to how this skill is
+to use your partner's skill                 //acquired from Armored Golem.
+by 1.                                       //Don't ask me why I changed it.
+                                            //Might change it to something better
+											//IF something springs to mind.
+											
+\c[2]Normie B           \c[6]$DPassive\c[0] //NOTICE: Normie MAIDEN
+Shortens the wait time (CT)                 //Refers to how this skill is
+to use your partner's skill                 //acquired from Alraune.
+by 1.                                       //Don't ask me why I changed it.
+                                            //Might change it to something better
+											//IF something springs to mind.
+\c[2]Heat Breath       \c[4]$ACT   /10\c[0]
+\c[5]Burns\c[0] a foe.
+\c[5]1/8 Max HP Dmg/turn.
+\c[5]ATK $u1/2. Post-battle heal.
+
+\c[2]Tall Wind I        \c[6]$DPassive\c[0] //NO IDEA what this does, may datamine
+Wind I becomes taller,                      //the event code later to see what effect
+cooler, and better looking.                 //this even has. I think it may legitimately
+                                            //just be included as a shitpost/longcat meme.
+\c[2]THIS WAY!           \c[4]$ASingle\c[0]
+Your next attack deals 5x
+damage. Afterwards, all
+except 1 Wind I will die.
+
+\c[2]Stratagem          \c[6]$DPassive\c[0]
+Increases the number of
+Wind Is who will act at once
+by 20%.
+
+\c[2]Assassination     \c[4]$ACT   /12\c[0]
+Slays normal foes in one
+shot. Bosses take damage
+equal to 1/8 their Max HP.
+
+\c[2]Cultivation Pro    \c[6]$DPassive\c[0] //NOTICE: Good At/Skilled At Cultivation.
+Reduces Wind I production                   //Space issues and wanting the skill name
+costs by 10g per Wind I.                    //to read a bit better caused me to punch
+                                            //上手 up slightly. Sorry literalchads.
+											//At best, interpret it as "pro(ficiency)."
+\c[2]Soul Sucker           \c[10]$CAuto\c[0]
+Recover 5% of Max Wind I
+capacity upon defeating an
+enemy.
+
+\c[2]Levitation         \c[6]$DPassive\c[0]
+Trap avoidance rate +10%.
+
+\c[2]Steel Blade        \c[6]$DPassive\c[0]
+Physical attack power +10%.
+
+\c[2]Dark Wave         \c[4]$ACT   /10\c[0]
+\c[5]Blinds\c[0] a foe.
+\c[5]Prevents physical attacks.
+\c[5]20% natural recovery rate.
+
+\c[2]Swagger           \c[4]$ACT   /10\c[0] //NOTICE: Pokemon move, same name.
+\c[5]Infuriates\c[0] a foe.                 //Kind of. 挑発=Provoke, but the official
+\c[5]Disables special actions.              //EN move name is Swagger.
+\c[5]20% natural recovery rate.             //Thanks, NoA Loc Team.
+
+\c[2]Fastidious         \c[6]$DPassive\c[0] //NOTICE: JP name=Choice Specs
+INT+50%, but you cannot use                 //Someone is going to HATE me for
+items during battle.                        //reducing this down to just the word
+                                            //こだわり here. Sorry literalchads.
+											//If it was an item, maybe.
+\c[2]Air Slash             \c[10]$CAuto\c[0]
+Gives Aero elemental magic a
+30% chance to stagger a foe.
+
+\c[2]Potato Chip Belly  \c[6]$DPassive\c[0]
+Become exhausted quicker,
+but become stressed slower.
+
+\c[2]Decapitation      \c[4]$ACT   /12\c[0]
+Slays normal foes in one
+shot. Bosses take damage
+equal to 1/8 their Max HP.
+
+\c[2]Ghastly Vibes T    \c[6]$DPassive\c[0] //NOTICE: Ghastly Vibes TRISH
+Reduces the cost of reviving                //It is just the letter T in JP as well
+Wind Is.
+
+\c[2]Ghastly Vibes G    \c[6]$DPassive\c[0] //NOTICE: Ghastly Vibes GHOSTI
+Reduces the cost of reviving                //It is just the letter G in JP as well
+Wind Is.
+
+\c[2]Death Master        \c[4]$ASingle\c[0]
+Revive Wind Is up to the
+amount you had at the
+beginning of battle.
+
+\c[2]Beeline           \c[4]$ACT   / 6\c[0] //NOTICE: Kind of complicated naming. Rittai Kidou.
+AGI+30% for 3 turns.                        //立体軌道 | 立体=Solid, 3D, straight (as opposed to slanted,
+                                            //in text/glyphs) 軌道=Orbit, trajectory, (rail) track.
+                                            //Based on the fact that Wind I makes a frantic
+											//escape from a Malevolent Stalker to learn this
+											//skill, even in the face of it saying that she
+											//utilized the terrain to aid in her escape, which
+											//in my opinion implies a less direct escape route,
+											//I suppose one could make a "beeline" for the
+											//nearest cover or hiding place.
+											//I honestly feel like the name's Kanji choice
+											//may have been some manner of typo, but the only
+											//other truly valid option here is 立体機動 wherein
+											//機動 refers to maneuvers or agility. This still
+											//doesn't really make that much sense, but oh well.
+										
+\c[2]GG! LMAO!           \c[4]$ASingle\c[0]
+Slays normal foes in one
+shot. Bosses take damage
+equal to 1/6 their Max HP.
+
+\c[2]Shooting Star     \c[4]$ACT   / 8\c[0]
+Unleash multiple physical
+attacks up to the number of
+\c[4]$ACT\c[0] skills you have.
+
+\c[2]Turn Into a Drill \c[4]$ACT   / 6\c[0]  //NOTICE: Drill Materialization/ドリル具現化
+Transform into a piece of                    //Meant to reference that DarkIII has
+\c[15]$BEquip\c[0]ment that boosts           //twindrill hair and is the embodiment
+ATK by 100x.                                 //of this. "Drill Elemental" sounded odd.
+                                             //Current name captures the weirdness of it
+											 //and reflects the move description.
+\c[2]Supplement Booster \c[6]$DPassive\c[0]
+Aero magic power +20%.
+
+\c[2]Awful Pun         \c[4]$ACT   /10\c[0]
+\c[5]Silences\c[0] a foe.
+\c[5]Prevents magic attacks.
+\c[5]20% natural recovery rate.
+
+\c[2]Lightning Speed       \c[10]$CAuto\c[0]
+AGI+10% during battle.
+
+\c[2]Dry Skin              \c[10]$CAuto\c[0]
+Recover 25% of Wind Is when
+water damage is taken.
+HOWEVER...
+
+\c[2]Extremespeed      \c[4]$ACT   / 4\c[0]  //NOTICE: Same name in JP as the
+Doubles AGI for 1 turn.                      //attack in Pokemon. Kiito likes to
+                                             //use these in his games.
+\c[2]Friendship Force   \c[6]$DPassive\c[0]
+????????????
+
+\c[2]Burning Heart         \c[10]$CAuto\c[0]　//NOTICE: Heart Burning
+ATK Power +50% if battle is                  //Re-worded for obvious reasons.
+started with 50% or less of
+maximum Wind I capacity.
+
+\c[2]Flat Trap             \c[10]$CAuto\c[0]
+When damage is taken, deal
+back 1/6 damage worth of the
+number of Wind Is that died.
+
+\c[2]No Mercy              \c[10]$CAuto\c[0]
+Instantly kill a foe with
+1/8 or less of its HP.
+
+\c[2]Meat Wall         \c[10]$ACT\c[0]   / 6 //NOTICE: Meat Curtain
+Nullifies physical damage.                   //Re-worded to sound less like... well...
+                                             
+\c[2]Acrobat           \c[10]$ACT\c[0]   / 6
+Nullifies magical damage.
+
+\c[2]Quick Heal        \c[10]$ACT\c[0]   / 8
+When damage is taken,
+instantly recover the same
+amount.
+
+\c[2]Moist Body        \c[10]$ACT\c[0]   / 4
+Recover from status effects.
+
+\c[2]Auto Phoenix      \c[10]$ACT\c[0]   /12
+Revive automatically when
+fatal damage sustained.
+
+\c[2]Elbow Knuckle     \c[10]$ACT\c[0]   /10
+Causes foes to stagger when
+damage is dealt to them.
+
+\c[2]Mega Guard        \c[10]$ACT\c[0]   / 8 //NOTICE: Mega Black Market Guard.
+Nullifies all damage.                        //Too big, truncated for size reasons
+                                             //Mega Yamiichi Guard? Nah. I'm sure
+											 //some fine day the choice to go purely
+											 //with Darkness I/Dark I/Darki will come
+											 //back to bite me, but not today.
+											 //JP transliterator chads, forgive me...
+\c[2]Starlight Lord    \c[10]$ACT\c[0]   /10
+Nullifies and reflects
+damage from special attacks.
+
+                  \c[4]$ACT 10/10
+                   
+                   \c[6]$DPassive\c[0]
+
+                      \c[10]$CAuto\c[0]
+                      
+                  \c[10]$ACT\c[0] 10/10
+                   
+                    \c[4]$ASingle\c[0]
+                    
+---------------------------
+Random Message?
+---------------------------
+
+Wind Is perished!
+
+---------------------------
+item section
+---------------------------
+
+\c[2]Fury Balm             \c[7]$oItem\c[0]
+Dealt damage +30% on the
+turn this item is used.
+
+\c[2]Toughener             \c[7]$oItem\c[0]
+Damage received is halved
+for the turn this is used.
+
+\c[2]Super Fury Balm       \c[7]$oItem\c[0]
+Dealt damage +50% on the
+turn this item is used.
+
+\c[2]Super Toughener       \c[7]$oItem\c[0]
+Damage received is quartered
+for the turn this is used.
+
+\c[2]Cure-All              \c[7]$oItem\c[0]
+Cures all status ailments.
+
+\c[2]Stimulant             \c[7]$oItem\c[0]
+Revives Wind Is up to the
+total number alive during
+the previous turn.
+
+\c[2]Warp Card             \c[7]$oItem\c[0]
+Flees from battle and
+escapes from a dungeon.
+
+\c[2]Oily Oil              \c[7]$oItem\c[0]
+Reduces exhaustion by 50%.
+
+\c[2]Summer Sweetgrass     \c[7]$oItem\c[0]
+Reduces stress by 50%.
+
+\c[2]Fire Tome             \c[7]$oItem\c[0]
+Gain \c[5]fire\c[0] elemental
+magic attack & resistance.
+
+\c[2]Water Tome            \c[7]$oItem\c[0]
+Gain \c[10]water\c[0] elemental
+magic attack & resistance.
+
+\c[2]Thunder Tome          \c[7]$oItem\c[0]
+Gain \c[4]lightning\c[0] elemental
+magic attack & resistance.
+
+\c[2]Stone Tome            \c[7]$oItem\c[0]
+Gain \c[19]earth\c[0] elemental
+magic attack & resistance.
+
+\c[2]Ice Tome              \c[7]$oItem\c[0]
+Gain \c[1]frost\c[0] elemental
+magic attack & resistance.
+
+\c[2]Shade Tome            \c[7]$oItem\c[0]
+Gain \c[16]dark\c[0] elemental
+magic attack & resistance.
+
+\c[2]Saint Tome            \c[7]$oItem\c[0]
+Gain \c[12]light\c[0] elemental
+magic attack & resistance.
+
+\c[2]Extreme Fury Balm     \c[7]$oItem\c[0]
+Dealt damage is doubled on
+the turn this item is used.
+
+\c[2]Extreme Toughener     \c[7]$oItem\c[0]
+Damage received is 1/10
+for the turn this is used.
+
+\c[2]Early Bird            \c[7]$oItem\c[0]
+Always strike first on the
+turn that this is used with
+no regard for agility.
+
+\c[2]Limit Breaker         \c[7]$oItem\c[0]
+Lose 90% of your Wind Is,
+but deal 4x damage.
+
+\c[2]Flame Powder          \c[7]$oItem\c[0]
+Revive Wind Is up to amount
+you had at the beginning of
+battle.
+
+\c[2]Deadly Toxin          \c[7]$oItem\c[0]
+Poisons you.
+
+\c[2]Angelic Pistol        \c[7]$oItem\c[0]
+Deals 999 damage.
+
+\c[2]Infinite Warp Card    \c[7]$oItem\c[0]
+Flee battle & escape a
+dungeon. Infinite use.
+
+\c[2]Smart Phone           \c[7]$oItem\c[0]
+Allows escape from & saving
+one time while inside a
+dungeon.
+
+\c[2]Toxic Wind I          \c[7]$oItem\c[0]
+Poisons an enemy.
+
+\c[2]Explosive Wind I      \c[7]$oItem\c[0]
+Burns an enemy.
+
+\c[2]Insane Wind I         \c[7]$oItem\c[0]
+Confuses an enemy.
+
+\c[2]Wind I Greatsword     \c[7]$oItem\c[0]
+Deals ATK x200 damage
+to an enemy.
+
+\c[2]Eternal Rose       \c[11]$pSelloff\c[0]
+A fake rose sold to suckers
+with the sales pitch that it
+"blooms for all eternity."
+
+\c[2]Porcelain Vase     \c[11]$pSelloff\c[0]
+Great for stuffing pickles
+and other things into.
+
+\c[2]Rainbow Jewel      \c[11]$pSelloff\c[0]
+Worth a surprising amount
+for your conscience if sold
+in a set of 7.
+
+\c[2]Golden Chalice     \c[11]$pSelloff\c[0]
+Great for those seeking to
+take their liquid medicine
+in pure, golden opulence.
+
+\c[2]Seed of the Heart  \c[11]$pSelloff\c[0]
+Used to make the ultimate
+medicine, maybe? Said to
+grow a heart when planted.
+
+\c[2]Kitchen Knife        \c[15]$BEquip\c[0]
+Increases 1 Wind I's
+ATK by 2x.
+
+\c[2]Kitchen Knife x12    \c[15]$BEquip\c[0]
+Increases 12 Wind Is'
+ATK by 2x.
+
+\c[2]Kitchen Knife x100   \c[15]$BEquip\c[0]
+Increases 100 Wind Is'
+ATK by 2x.
+
+\c[2]Longsword            \c[15]$BEquip\c[0]
+Increases 1 Wind I's
+ATK by 3x.
+
+\c[2]Longsword x12        \c[15]$BEquip\c[0]
+Increases 12 Wind Is'
+ATK by 3x.
+
+\c[2]Longsword x100       \c[15]$BEquip\c[0]
+Increases 100 Wind Is'
+ATK by 3x.
+
+\c[2]Dragon Sword         \c[15]$BEquip\c[0]
+Increases 1 Wind I's
+ATK by 4x.
+
+\c[2]Dragon Sword x12     \c[15]$BEquip\c[0]
+Increases 12 Wind Is'
+ATK by 4x.
+
+\c[2]Dragon Sword x100    \c[15]$BEquip\c[0]
+Increases 100 Wind Is'
+ATK by 4x.
+
+\c[2]Pot Lid              \c[15]$BEquip\c[0]
+Increases 1 Wind I's
+DEF by 2x.
+
+\c[2]Pot Lid x12          \c[15]$BEquip\c[0]
+Increases 12 Wind Is'
+DEF by 2x.
+
+\c[2]Pot Lid x100         \c[15]$BEquip\c[0]
+Increases 100 Wind Is'
+DEF by 2x.
+
+\c[2]Small Shield         \c[15]$BEquip\c[0]
+Increases 1 Wind I's
+DEF by 3x.
+
+\c[2]Small Shield x12     \c[15]$BEquip\c[0]
+Increases 12 Wind Is'
+DEF by 3x.
+
+\c[2]Small Shield x100    \c[15]$BEquip\c[0]
+Increases 100 Wind Is'
+DEF by 3x.
+
+\c[2]Dragon Shield        \c[15]$BEquip\c[0]
+Increases 1 Wind I's
+DEF by 4x.
+
+\c[2]Dragon Shield x12    \c[15]$BEquip\c[0]
+Increases 12 Wind Is'
+DEF by 4x.
+
+\c[2]Dragon Shield x100   \c[15]$BEquip\c[0]
+Increases 100 Wind Is'
+DEF by 4x.
+
+\c[2]Amulet               \c[15]$BEquip\c[0]
+Prevents critical hits
+against you.
+
+\c[2]Safety Boots         \c[15]$BEquip\c[0]
+Halves damage taken from
+traps.
+
+\c[2]Power Bangle         \c[15]$BEquip\c[0]
+Prevents fury and confusion.
+
+\c[2]Magic Ring           \c[15]$BEquip\c[0]
+Prevents burn and silence.
+
+\c[2]Speed Shoes          \c[15]$BEquip\c[0]
+While adventuring, increases
+action count by 3.
+
+\c[2]Poison Guard         \c[15]$BEquip\c[0]
+Prevents poison.
+
+\c[2]Sniper's Eye         \c[15]$BEquip\c[0]
+Prevents blindness.
+
+\c[2]Safety Charm         \c[15]$BEquip\c[0]
+Reduces Wind I death rate
+from jobs by 33%.
+
+\c[2]Life Insurance       \c[15]$BEquip\c[0]
+When Wind Is perish during
+jobs, receive 50% of their
+creation cost back.
+
+\c[2]Security Bell        \c[15]$BEquip\c[0]
+Reduces Wind I death rate
+while walking by 10%.
+
+\c[2]Dragon Slayer        \c[15]$BEquip\c[0]
+1 Wind I's ATK +200x.
+
+\c[2]Wedding Cake Knife   \c[15]$BEquip\c[0]
+1 Wind I's ATK +44x.
+Guaranteed to pierce.
+
+\c[2]Steam Iron           \c[15]$BEquip\c[0]
+1 Wind I's ATK +29x.
+\c[5]Fire element\c[0].
+20% chance to burn foes.
+
+\c[2]Crystal Lance        \c[15]$BEquip\c[0]
+1 Wind I's ATK +94x.
+\c[10]Water element\c[0].
+20% chance to blind foes.
+
+\c[2]Speed Eater          \c[15]$BEquip\c[0]
+1 Wind I's ATK +50x.
+\c[9]Aero element\c[0]. Divides foe's
+AGI by your own.
+
+\c[2]Chain Saw            \c[15]$BEquip\c[0]
+1 Wind I's ATK +66x.
+\c[4]Lightning element\c[0].
+10% insta-kill chance.
+
+\c[2]Spider               \c[15]$BEquip\c[0]
+1 Wind I's ATK +71x. \c[19]Earth\c[0].
+If no other elemental weaps
+equipped, hits 4 times.
+
+\c[2]Ice Sword            \c[15]$BEquip\c[0]
+1 Wind I's ATK +160x. \c[1]Frost\c[0].
+Frost magic does 3x damage
+against Aero element.
+
+\c[2]Immortal Black Lance \c[15]$BEquip\c[0]
+1 Wind I's ATK +101x. \c[16]Dark\c[0].
+Revives once if defeated
+while adventuring.
+
+\c[2]Moon Light           \c[15]$BEquip\c[0]
+1 Wind I's ATK +404x.
+\c[12]Light element\c[0].
+
+\c[2]Contract             \c[15]$BEquip\c[0]
+Reduces trap activation rate
+by 50%.
+
+\c[2]Solar Hairpiece      \c[15]$BEquip\c[0]
+Reduces Wind I death rate
+while walking to 0%.
+
+\c[2]Black Market Pass    \c[15]$BEquip\c[0]
+Used to purchase special
+things from the black market
+perhaps?
+
+\c[2]Wind of Creation     \c[15]$BEquip\c[0]
+ATK x1 + ???
+A wind-blessed sword that
+turns despair into hope.
+
+
+
+\c[1] = Frost
+\c[4] = Lightning
+\c[5] = fire
+\c[9] = aero
+\c[10] = Water
+\c[12] = Light
+\c[16] = dark
+\c[19] = earth
+
+
+______________________________
+
+Serifu section
+------------------------------
+START ON LINE 13
+
+            01234567890123456789012345678901234567
+
+Bouken 1
+            \c[2]THE SOGEN FIELDS\c[0]
+            A beginner-oriented adventuring zone.
+            Populated mostly by weak monsters, but
+            poweful ones also appear occasionally.
+                          \c[10]Area Progress: [\c[0]   / 50\c[10]]
+
+Bouken 2
+            \c[2]THE YAKATA RESIDENCE\c[0]
+            An eerie manor tucked quietly away in
+            the depths of the forest. The inside
+            is laden with various traps.
+                          \c[10]Area Progress: [\c[0]   / 80\c[10]]
+
+Bouken 3
+            \c[2]THE TOWER OF TOH\c[0]
+            A mysterious tower which has yet to be
+            disturbed by adventurers. Rumor has it
+            that rare treasures sleep within.
+                          \c[10]Area Progress: [\c[0]   /150\c[10]]
+
+Bouken 4
+            \c[2]THE ISLET OF KOTOU\c[0]
+            A tiny island in the ocean's furthest
+            reaches which abounds with ferocious
+            monsters. Death is always near...
+                          \c[10]Area Progress: [\c[0]   /300\c[10]]
+
+Bouken 5                        
+            \c[2]?????????????\c[0]
+            What... is this place...?
+            (You cannot go here yet.)
+
+                          \c[10]Area Progress: [\c[0]   /???\c[10]]
+                          
+                          
+                          
+System 1
+                                                  
+            Thank goodness.
+            No Wind Is died.
+            
+            
+                                                  
+            Wind I's \c[4]job proficiency\c[0]
+            level went up!
+            
+Job 1           
+            \c[2]Heal III\c[0]
+            Wind I can go work jobs to earn money.
+            New jobs will become available to her
+            as she gains \c[4]work experience\c[0].
+                                 \c[10][Time Cost:\c[0] 8\c[10]hrs]
+                                 
+                                 
+Job 2 
+            \c[2]Heal III\c[0]
+            I can't send Wind I to work there yet.
+
+
+
+Job 3
+            \c[2]Heal III\c[0]
+            Looks like there aren't enough Wind Is
+            to send out for that job.
+            
+
+Job 4
+            
+            Earned   G from work!
+            
+            
+
+Job 5
+            
+            Earned    G from work!
+                        
+            
+Cost things
+
+            G each,
+            
+            G will cover construction costs.
+
+
+Misc Text
+
+Not enough money...
+
+Select  Z: Confirm  X: Delete
+
+Inventory is full.
+
+\c[10]♪BGM 1\c[0]: \c[18]Manipulating Strings Unseen
+\c[10]♪BGM 2\c[0]: \c[9]climb with wind
+\c[10]♪BGM 3\c[0]: \c[9]Black Market (Arrange Ver.)
+\c[10]♪BGM 4\c[0]: \c[15]And So, I Return to Sleep
+
+\c[2]TIPS\c[0] : Every 30 days, you will receive
+      \c[4]+10000G\c[0] in clinic income.
+/
+\c[2]TIPS\c[0] : The clinic generates \c[4]+10000G\c[0] worth of income
+      every 30 days.
+/
+\c[2]TIPS\c[0] : \c[4]CONSTRUCTION\c[0] will allow you to expand the clinic
+      and increase your maximum Wind I capacity.
+/
+\c[2]TIPS\c[0] : Each time you upgrade your CULTIVATION TANK,
+      your cost per Wind I will go down by \c[4]1G\c[0].
+/
+\c[2]TIPS\c[0] : When raising Wind I's stats, balance is critical.
+      Her \c[5]death rate is higher\c[0] when her stats are uneven.
+/
+\c[2]TIPS\c[0] : You will need to find a certain \c[4]ingredient\c[0] before
+      you can make the ULTIMATE MEDICINE.
+/
+\c[2]TIPS\c[0] : Research and development costs
+      can never exceed \c[4]99999G\c[0].
+/
+\c[2]TIPS\c[0] : Wind I's stats max out at \c[4]999\c[0].
+/
+\c[2]TIPS\c[0] : Wind I can obtain items by going on
+      \c[4]WALKS and ADVENTURES\c[0].
+/
+\c[2]TIPS\c[0] : Working jobs over and over will
+      eventually unlock new jobs.
+/
+\c[2]TIPS\c[0] : The death rate for jobs goes down as Wind I
+      becomes more proficient, denoted by STARS.
+/
+\c[2]TIPS\c[0] : Successfully resolving any \c[4]TROUBLE\c[0] that arises while
+      on the job will earn you double pay for that shift.
+/
+\c[2]TIPS\c[0] : There is a certain item that will lower
+      the death rate while working.
+/
+\c[2]TIPS\c[0] : There are ways to tell when \c[4]TROUBLE\c[0] is about to
+      happen at a job.
+/
+\c[2]TIPS\c[0] : Higher fatigue and stress means \c[5]higher death rates\c[0].
+/
+\c[2]TIPS\c[0] : You \c[4]MUST have 9999 Wind Is\c[0] in order to succeed in
+      creating the \c[4]ULTIMATE MEDICINE\c[0].
+/
+\c[2]TIPS\c[0] : Going on a walk will reduce Wind I's stress to ZERO.
+/
+\c[2]TIPS\c[0] : There is a certain item that will lower
+      the death rate while out on a stroll.
+/
+\c[2]TIPS\c[0] : The time of day affects the death rate for
+      sending Wind I out on a stroll.
+/
+\c[2]TIPS\c[0] : Wind I may \c[4]meet different characters\c[0]
+      at different times of day.
+/
+\c[2]TIPS\c[0] : Wind I may find \c[4]different shops\c[0] depending
+      on the time of day.
+/
+\c[2]TIPS\c[0] : INTRUDERS do not appear at random, but rather
+      show up at \c[4]fixed intervals\c[0].
+
+
+
+WIND I MESSAGES (HELP MESSAGE WINDOW, SCREEN UPPER)
+
+\c[2]Wind I\c[0]: The weather's great today!
+\c[2]Wind I\c[0]: I hope I feel better soon...
+\c[2]Wind I\c[0]: I made it through another day.
+\c[2]Wind I\c[0]: Zzz...
+\c[2]Wind I\c[0]: I'm feeling a bit tired.
+\c[2]Wind I\c[0]: I'm feeling kind of stressed...
+\c[2]Wind I\c[0]: I'm feeling so sluggish...
+\c[2]Wind I\c[0]: I'm in a... TERRIBLE mood...
+\c[2]Wind I\c[0]: I can... hardly move...
+\c[2]Wind I\c[0]: I... slit my wrists today...
+\c[2]Wind I\c[0]: I wish I was dead...
+
+\c[2]Variant!\c[0]: \c[18]Toxic Wind I\c[0] was born...
+\c[2]Variant!\c[0]: \c[5]Explosive Wind I\c[0] was born...
+\c[2]Variant!\c[0]: \c[17]Insane Wind I\c[0] was born...
+\c[2]Variant!\c[0]: \c[11]Wind I Greatsword\c[0] was born!!
+
+Conbini
+
+Work at a local convenience store.
+Watch out for robbers and complaining customers!!
+\c[10]Job LV:$z        \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Work at a local convenience store.
+Watch out for robbers and complaining customers!!
+\c[10]Job LV:$z$z      \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Work at a local convenience store.
+Watch out for robbers and complaining customers!!
+\c[11]Job LV:$z$z$z    \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+
+Gamedev
+
+Develop RPG Maker games for a seedy company.
+Beware of day-to-day stress and insane co-workers!
+\c[10]Job LV:$z        \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Develop RPG Maker games for a seedy company.
+Beware of day-to-day stress and insane co-workers!
+\c[10]Job LV:$z$z      \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Develop RPG Maker games for a seedy company.
+Beware of day-to-day stress and insane co-workers!
+\c[11]Job LV:$z$z$z    \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+
+
+Construction Site
+
+Do manual labor at a large construction site.
+Be wary of accidents and unexpected dangers!!
+\c[10]Job LV:$z        \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Do manual labor at a large construction site.
+Be wary of accidents and unexpected dangers!!
+\c[10]Job LV:$z$z      \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Do manual labor at a large construction site.
+Be wary of accidents and unexpected dangers!!
+\c[11]Job LV:$z$z$z    \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+
+Dark Lord's Castle
+
+Work as an enemy in the Dark Lord's castle.
+Beware of heroes and rare custom battle systems!!
+\c[10]Job LV:$z        \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Work as an enemy in the Dark Lord's castle.
+Beware of heroes and rare custom battle systems!!
+\c[10]Job LV:$z$z      \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Work as an enemy in the Dark Lord's castle.
+Beware of heroes and rare custom battle systems!!
+\c[11]Job LV:$z$z$z    \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+
+Space
+
+Wind I goes to space...
+
+\c[10]Job LV:$z        \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Wind I goes to space...
+
+\c[10]Job LV:$z$z      \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+Wind I goes to space...
+
+\c[11]Job LV:$z$z$z    \c[4]Wages:      \c[2]Requires:     Wind Is
+\c[17][Recommended Stats] \c[5]STR:      \c[1]INT:       \c[15]AGI:
+
+
+
+Job Add 2
+
+            You can now send Wind I to work       
+            at the \c[4]seedy company\c[0]!!
+
+       
+Job Add 3
+
+            You can now send Wind I to work       
+            at the \c[4]construction site\c[0]!!
+            
+            
+Job Add 4
+
+            You can now send Wind I to work       
+            at the \c[4]Dark Lord's Castle\c[0]!!      
+
+
+Job Add 5
+
+            You can now send Wind I to go         
+            to \c[4]war in outer space\c[0]!!
+
+
+
+Qsoku 1
+            \c[2]Heal III\c[0]
+            Letting Wind I rest will \c[4]reduce\c[0] her
+            \c[5]stress\c[0] and \c[1]exhaustion\c[0] by \c[4]50%\c[0].
+            
+                                \c[10][Time Cost:\c[0] 24\c[10]hrs]
+
+
+
+Qsoku 2
+            
+            Wind I is all rested up!!
+            
+            
+
+
+
+Bouken 1
+            \c[2]Heal III\c[0]
+            Wind I can search for treasures in the
+            dungeons. It may be worth \c[4]asking folks
+            \c[4]about good places to explore\c[0].
+                                \c[10][Time Cost:\c[0] 24\c[10]hrs]
+
+Zouchiku 1
+            \c[2]Heal III\c[0]
+            Expanding the clinic will \c[4]increase the
+            maximum number of Wind Is\c[0] I can have
+            here.
+                    \c[10][ +Capacity  Time Cost:\c[0] 24\c[10]hrs]
+
+            \c[2]Heal III\c[0]
+            Expanding the clinic will \c[4]increase the
+            maximum number of Wind Is\c[0] I can have
+            here.
+                   \c[10][  +Capacity  Time Cost:\c[0] 24\c[10]hrs]
+
+            \c[2]Heal III\c[0]
+            Expanding the clinic will \c[4]increase the
+            maximum number of Wind Is\c[0] I can have
+            here.
+                  \c[10][   +Capacity  Time Cost:\c[0] 24\c[10]hrs]
+
+            \c[2]Heal III\c[0]
+            Expanding the clinic will \c[4]increase the
+            maximum number of Wind Is\c[0] I can have
+            here.
+                 \c[10][    +Capacity  Time Cost:\c[0] 24\c[10]hrs]
+Zouchiku 6            
+            \c[2]Heal III\c[0]
+            
+            
+            
+                \c[10][\c[0]Z/Enter: Confirm   X/ESC: Cancel\c[10]]
+            
+            
+Zouchiku 7            
+            \c[2]Heal III\c[0]
+            Looks like I can't make this place    
+            any bigger.
+            
+ 
+
+Zouchiku 8-1            
+            \c[2]Heal III\c[0]
+            Wow, that sure was fast.
+            
+            
+                   \c[10][Max Wind I Capacity:\c[0] 10 \c[10]$T\c[0] 20\c[10]]
+Zouchiku 8-1            
+            \c[2]Heal III\c[0]
+            Wow, that sure was fast.
+            
+            
+                   \c[10][Max Wind I Capacity:\c[0] 20 \c[10]$t\c[0] 50\c[10]]
+
+Zouchiku 8-1            
+            \c[2]Heal III\c[0]
+            Wow, that sure was fast.
+            
+            
+                  \c[10][Max Wind I Capacity:\c[0] 50 \c[10]$t\c[0] 100\c[10]]
+Zouchiku 8-1            
+            \c[2]Heal III\c[0]
+            Wow, that sure was fast.
+            
+            
+                 \c[10][Max Wind I Capacity:\c[0] 100 \c[10]$t\c[0] 500\c[10]]
+
+Zouchiku 8-1            
+            \c[2]Heal III\c[0]
+            Wow, that sure was fast.
+            
+            
+                \c[10][Max Wind I Capacity:\c[0] 500 \c[10]$t\c[0] 2000\c[10]]
+                
+Zouchiku 8-1            
+            \c[2]Heal III\c[0]
+            Wow, that sure was fast.
+            
+            
+               \c[10][Max Wind I Capacity:\c[0] 2000 \c[10]$t\c[0] 9999\c[10]]
+               
+               
+Cheevos 1 (UNUSED)
+            \c[2]Heal III\c[0]
+            I can check my achievements here.
+            I can also enter \c[4]secret passwords\c[0] here
+            if I know any.
+                                  \c[10][Time Cost:\c[0] N/A\c[10]]
+
+
+Sanpo 1
+            \c[2]Heal III\c[0]
+            I can send Wind I out on a stroll into
+            town to \c[4]shop and explore\c[0]. It's safer
+            to send her when it's light outside.
+                                 \c[10][Time Cost:\c[0] 8\c[10]hrs]
+                                 
+                                 
+Sanpo Serifu 1
+            \c[2]Wind I\c[0]
+            Ah! A morning stroll!
+            Hearing the birds chirp really        
+            soothes the soul.
+            
+Sanpo Serifu 2
+            \c[2]Wind I\c[0]
+            A midday walk into town!
+            I bet today's gonna be lots of fun!   
+            
+Sanpo Serifu 3
+            \c[2]Wind I\c[0]
+            A late night stroll!
+            There's something so thrilling about  
+            going out at night.
+            
+Sanpo Sentaku 1a
+            \c[2]Wind I\c[0]
+            I bet I can learn some \c[4]handy skills\c[0]
+            from the people I meet and the things 
+            I see along the way.
+            
+
+Sanpo Sentaku 1b
+            \c[2]Wind I\c[0]
+            I think it's time to head on home from
+            today's excursion.
+            
+            \c[2]Wind I\c[0]
+            I've already explored around town
+            today.
+      
+Sanpo Sentaku 2
+            \c[2]Wind I\c[0]
+            I wonder if I'll find anything that
+            might be useful on my adventures, or  
+            any other \c[4]nice, rare finds\c[0].
+            
+Sanpo Sentaku 2b
+            \c[2]Wind I\c[0]
+            I think it's time to head on home from
+            today's shopping trip.
+            
+            \c[2]Wind I\c[0]
+            I've already gone shopping today.
+            
+Sanpo Sentaku 3
+            \c[2]Wind I\c[0]
+            Should I head back to the clinic?
+            
+             \c[10][\c[0]Z/ENTER: Not yet   X/ESC: Head home\c[10]]
+            
+
+
+Seisan 1
+
+            \c[2]Heal III\c[0]
+            For
+            I can grow more Wind Is in my
+            cultivation tank.
+                     \c[10][  Wind Is    Time Cost:\c[0] N/A\c[10]]
+
+            \c[2]Heal III\c[0]
+            For
+            I can grow more Wind Is in my
+            cultivation tank.
+                    \c[10][   Wind Is    Time Cost:\c[0] N/A\c[10]]
+
+            \c[2]Heal III\c[0]
+            For
+            I can grow more Wind Is in my
+            cultivation tank.
+                   \c[10][    Wind Is    Time Cost:\c[0] N/A\c[10]]
+
+
+
+            \c[2]Heal III\c[0]
+            Looks like I don't have enough money.            
+                    
+            \c[2]Heal III\c[0]
+            I don't have enough beds for any more
+            Wind Is.
+            
+Kakunin 1
+
+            \c[2]Heal III\c[0]
+            I can check the skills and items I've
+            obtained here. Certain items can be
+            used here as well.
+                                  \c[10][Time Cost:\c[0] N/A\c[10]]
+
+Kaihatsu 1
+
+            \c[2]Heal III\c[0]: This is where I can power up
+            Wind I's stats, improve cultivation
+			rates, and develop medicine.
+			
+            \c[2]Heal III\c[0]
+            This is where I can power up Wind I's
+            attributes, improve cultivation output
+            rates, and develop medication.
+                                  \c[10][Time Cost:\c[0] N/A\c[10]]
+\
+
+            \c[2]Heal III\c[0]
+            This is where I can power up Wind I's
+            attributes, upgrade my cultivation
+            tank's output, and develop medication.
+                                  \c[10][Time Cost:\c[0] N/A\c[10]]
+Kaihatsu 2
+            \c[2]Heal III\c[0]
+            By improving Wind I's cultivation tank
+            I can \c[4]reduce the cost per Wind I\c[0], and
+            \c[4]create more of her simultaneously\c[0].
+                 \c[10][Unit Cost:\c[0]  G /   \c[10]In Each Batch]
+                 
+                 
+            \c[2]Heal III\c[0]
+            By improving Wind I's cultivation tank
+            I can \c[4]reduce the cost per Wind I\c[0], and
+            \c[4]create more of her simultaneously\c[0].
+              \c[10][Unit Cost:\c[0]    G /    \c[10]In Each Batch]
+
+Kaihatsu 3
+            \c[2]Heal III\c[0]
+            \c[5]Strength\c[0] improves \c[4]attack power\c[0].
+            Agility affects turn order.
+            Intellect influences magic power and
+            how many Wind Is act simultaneously.  
+
+Kaihatsu 4
+            \c[2]Heal III\c[0]
+            Strength improves attack power.
+            \c[15]Agility\c[0] affects \c[4]turn order\c[0].
+            Intellect influences magic power and
+            how many Wind Is act simultaneously.  
+
+Kaihatsu 5            
+            \c[2]Heal III\c[0]
+            Strength improves attack power.
+            Agility affects turn order.
+            \c[1]Intellect\c[0] influences \c[4]magic power\c[0] and
+            \c[4]how many Wind Is act simultaneously\c[0].  
+
+Kaihatsu 6
+            \c[2]Heal III\c[0]
+            This is the ultimate \c[4]medicine\c[0], which  
+            SHOULD be able to cure Wind I...
+            ...In theory, at least.
+
+Kaihatsu 7
+            \c[2]Heal III\c[0]
+            This attribute cannot be powered up
+            any further.
+
+Kaihatsu 8
+            \c[2]Heal III\c[0]
+            Looks like I lack the necessary
+            \c[4]ingredients\c[0]...
+            
+            \c[2]Heal III\c[0]
+            
+            
+            
+            
+Wind I Death Messages
+
+            
+            
+                           \c[5]Wind Is perished...
+                           
+                           
+                           
+                           
+                            \c[5]Wind Is perished...
+                            
+                            
+                            
+                            
+                             \c[5]Wind Is perished...
+                             
+                             
+                             
+                             
+                              \c[5]Wind Is perished...
+            
+            
+            
+            
+            \c[5]All the Wind Is have perished...
+            
+            
+            
+            
+            After testing the medicine on her...
+            
+            After getting in a fight with an
+            unruly customer...
+            
+            After being struck by things that fell
+            off a shelf onto her...
+            
+            After slipping and falling while
+            cleaning...
+            
+            After getting her finger caught in the
+            door of a cash register...
+            
+            After a collision with some kids who
+            were running around the store...
+          
+            After seeing the contents of a
+            pornographic magazine...
+            
+            After being hit by a delivery truck...
+            
+            After being intimidated by a drunk
+            customer...
+            
+            After a failure to expand the
+            memory stream...
+            
+            After saving an image as a jpeg
+            instead of a png...
+            
+            After completely screwing up an event
+            that shows numbers using pictures...
+            
+            After mixing up the "APPLY" and
+            "CANCEL" buttons while eventing...
+            
+            After forgetting which folder
+            timidity++.exe was saved in...
+            
+            After her project's map tree data
+            became corrupted...
+            
+            After discovering a game-breaking bug
+            RIGHT AFTER submitting her jam game...
+            
+            After realizing the crushing number of
+            typos in her shitpost game...
+            
+            After being crushed in a landslide...
+            
+            After being shaken and whipped around
+            by an enormous drill...
+            
+            After being struck by a semi truck...
+            
+            After being engulfed in the smoke of
+            a gas bomb...
+            
+            After slipping into wet concrete...
+            
+            After falling in a manhole...
+            
+            After being struck in the head by
+            falling construction materials...
+            
+            After swinging a pickaxe right into
+            her own foot...
+            
+            After being blown away right near the
+            entrance...
+            
+            After being blown away in a room full
+            of trash mobs...
+            
+            After being blown away in the chamber
+            of the Elite Four...
+            
+            After being blown away in
+            Nin-Nin's room...
+            
+            After being blown away in the
+            Dark Lord's room...
+            
+            After being blown off the bridge
+            leading to the Dark Lord's castle...
+            
+            After being engulfed in Nuclear III's
+            explosion...
+            
+            After utterly failing to deliver the
+            punch line of a joke...
+            
+            After taking a direct hit from a
+            particle beam cannon...
+            
+            After failing to shake off a homing
+            missile...
+            
+            After being shot by a laser...
+            
+            After failing to weave through a
+            flagship's bullet heck pattern...
+            
+            After being engulfed in a crushing
+            amount of materials...
+            
+            After colliding with some space
+            debris...
+            
+            After being eaten by invaders...
+            
+            After taking friendly fire...
+            
+            After being attacked by a flock of
+            wild crows...
+            
+            After being pecked by a wild
+            sparrow...
+            
+            After being captured by and taken
+            away by a monstrous bird...
+            
+            After slipping and falling off a
+            train platform...
+            
+            After a run-in with a gut puncher...
+            
+            After an encounter with a huge group
+            of gryphons...
+            
+            After falling over for no reason
+            at all...
+            
+            After forgetting to eat breakfast...
+            
+            After being eaten by a toxic lion...
+            
+            After being bitten by a toxic dog...
+            
+            After getting caught up in a herd of
+            charging buffalo...
+            
+            After being hit by an unsafe
+            cyclist...
+            
+            After being held up by a highwayman...
+            
+            After running into a huge group of
+            dragons...
+            
+            After a sudden fissure in the earth
+            swallowed her up...
+            
+            After slowly being cooked by the
+            rays of the sun...
+            
+            After being attacked by a starving
+            hyena...
+            
+            After being attacked by a starving
+            harpagon...
+            
+            After having her blood sucked by a
+            swarm of bats...
+            
+            After being struck by a meteor...
+            
+            After a run-in with a pervert...
+            
+            After running into a huge band of
+            vampires...
+            
+            After being possessed by a ghost...
+
+            After thinking that somebody was
+            stalking her...
+            
+            
+------------------------------
+Skill Windows
+
+
+Overwrite this skill?
+
+\c[2]$v$t\c[0]: Select   \c[2]Z\c[0]: Confirm   \c[2]X\c[0]: Cancel
+
+Skill learned!
+
+You already know this skill.
+
+Abandoned learning the skill...
+Skill abandoned... //shortened to fit inside the bounds of the
+                   //window since this was getting cut off before
+
+Abandon learning this skill?
+
+-------------------------------
+Battle stuff
+
+\c[4]Normal Attack
+USE A PHYSICAL OR MAGICAL ATTACK.
+
+\c[10]Defense Focus
+ATTACK AT HALF POWER, BUT SUFFER ONLY
+HALF AS MANY LOSSES WHEN ATTACKED.
+
+\c[5]Reckless Rush
+130% ATTACK POWER WITH 50% RECOIL DAMAGE.
+
+\c[2]Partner Skill\c[0]: CT   / 5
+
+\c[2]Soothing Water
+REGAIN WIND Is AND ATTACK WITH WATER MAGIC.
+
+\c[2]Flame Dance
+A FIRE MAGIC ATTACK WITH 200% POWER.
+            
+\c[2]Black Market Guard
+DARKNESS I SHIELDS YOU AND PERFORMS A
+NORMAL ATTACK AGAINST THE ENEMY.
+
+\c[5]Give me your body!     
+\c[2]Wind I\c[0]: That's a tree.            
+\c[2]Wind I\c[0]: OK.
+            
+\c[2]Z\c[0]: Confirm   \c[2]X\c[0]: Menu   \c[2]$v$t\c[0]: Select
+
+
+
+
+--------------------------------
+Enemy Attacks
+
+Steal 100 Gold
+Steal 500 Gold
+Ice III
+Strange Light
+Water II
+Shout
+Quake III
+Gustav Hammer
+Crabhammer
+Thunder II
+Thunder III
+Shade II
+Stun Serum
+Shadow Claw
+Starlight I
+Starlight II
+Starlight III
+Stone II
+Stone Ball
+Spark II
+Saint II
+Saint Shield
+Darkness III
+Arrow Barrage
+Burst III
+Guillotone
+Bash
+Roost
+Heal II
+Big Cannon
+Fire III
+Black Hole
+Flame III
+Holy Rage
+Gulp
+Metal Claw
+Meteo
+Lightning Cluster
+Wrath of Holy Lightning
+Eerie Dance
+Tainted Claw
+Critical
+Ice Beam
+Full Swing
+Rock Throw
+Wide Area Knockout
+Binding Fang
+Swagger
+Dark Attack
+Watch
+Poison Fang
+Poison Strike
+Frost Breath
+Corrosion
+Short Circuit
+Fierce Pierce
+Fire Breath
+Flame Breath
+Flaming Dragon Fist
+Ultimate Knockout
+Charge
+Molt
+Regeneration
+Light of Judgment
+Ultra Swing
+Ultra Pierce
+Ultra Charge
+Supersonic
+Flee
+Normal Attack
+Electro Cannon
+Demon Fang
+Devil Cutter
+Paralyze Tentacle
+Paralyze Fang
+
+
+
+Sorted short to long
+
+Bash
+Gulp
+Molt
+Flee
+Shout
+Roost
+Meteo
+Watch
+Charge
+Ice III
+Heal II
+Swagger
+Water II
+Shade II
+Stone II
+Spark II
+Saint II
+Fire III
+Critical
+Ice Beam
+Quake III
+Burst III
+Flame III
+Holy Rage
+Corrosion
+Crabhammer
+Thunder II
+Stun Serum
+Stone Ball
+Guillotine
+Big Cannon
+Black Hole
+Metal Claw
+Full Swing
+Rock Throw
+Supersonic
+Demon Fang
+Thunder III
+Shadow Claw
+Starlight I
+Eerie Dance
+Dark Attack
+Poison Fang
+Fire Breath
+Ultra Swing
+Starlight II
+Saint Shield
+Darkness III
+Tainted Claw
+Binding Fang
+Frost Breath
+Flame Breath
+Regeneration
+Ultra Pierce
+Ultra Charge
+Devil Cutter
+Strange Light
+Gustav Hammer
+Starlight III
+Arrow Barrage
+Poison Strike
+Short Circuit
+Fierce Thrust
+Normal Attack
+Paralyze Fang
+Steal 100 Gold
+Steal 500 Gold
+Electro Cannon
+Lightning Cluster
+Ultimate Knockout
+Light of Judgment
+Paralyze Tentacle
+Wide Area Knockout
+Flaming Dragon Fist
+Wrath of Holy Lightning
+
+thank god that's fucking over with
+
+
+-----------------------------
+Additional lines
+-----------------------------
+
+Until Encounter:
+Encounters stop you where triggered.
+\c[2]Normal\c[0]: 1-6/Sight: 3 Squares
+\c[2]Sneak\c[0]: 1-3/Sight: 2 Squares
+\c[2]Sprint\c[0]: 4-6/Sight: 1 Square
+\c[2]Wind I\c[0]: Zzz...
+\c[2]Water I\c[0]: Zzz...
+\c[2]Wind I\c[0]: (Lewd me and I'll bite your arteries!)
+\c[2]Flame I\c[0]: Tale... of... Gen... ji...
+\c[2]Wind I\c[0]: (Sleep talking... how annoying...)
+\c[2]Darkness I\c[0]: Moneymoneymoney...
+\c[2]Darkness I\c[0]: Hehe... big tummy...
+\c[2]Darkness I\c[0]: I'm the queen of low society...
+\c[2]Blank Space\c[0]: Nothing here; safe.
+\c[2]Chest\c[0]: Get gold and items!
+\c[2]Big Chest\c[0]: Gotta be \c[4]strong\c[0] to open it!
+\c[2]Magic Chest\c[0]: Need \c[4]brains\c[0] to open it!
+\c[2]Foe\c[0]: A normal-level encounter!
+\c[2]Strong Foe\c[0]: A powerful opponent!
+\c[2]Fierce Foe\c[0]: \c[5]We're gonna die!\c[0]
+\c[2]Trap\c[0]: You'll die without high AGI.
+\c[2]Bed\c[0]: Rest and recover fatigue.
+\c[2]Dice\c[0]: Roll the dice again.
+\c[2]Black Market\c[0]: You can only sell things here.
+\c[2]Start\c[0]: Where adventure begins!
+\c[2]Checkpoint\c[0]: Recover fatigue; can return home too.
+\c[2]Boss\c[0]: The decisive battlefield!
+Gaining EXP can raise your stats.
+\c[2]Z\c[0]:Dice \c[2]X\c[0]:Menu \c[2]$v$t\c[0]:Change Wallpaper
+\c[2]Push\c[0] the direction you want to go!
+
+
+
+\c[2]Z\c[0]: Confirm \c[2]X\c[0]: Menu \c[2]$v$t\c[0]: Select
+\c[2]Wind I\c[0]: That's a tree.
+\c[2]Wind I\c[0]: OK.
+Wind Is perished!
+Skill
+\c[4]Can use\c[0]
+Equip
+Items
+
+
+
+\C[5]FIRE
+\C[10]WATER
+\C[15]AERO
+\C[4]THUNDER
+\C[19]EARTH
+\C[17]FROST
+\C[12]LIGHT
+\C[16]DARK
+
+---------------------------
+Status Effect Icons stuff
+
+
+There is NO GOOD WAY to do these without serious
+compromise. Japanese is unfair sometimes. Reworked
+the icons from 12x12 squares to weird 12x6 rectangles
+to fit in more descriptive versions of the statuses.
+
+To Do: confirm these remaining status effect icons
+
+EX8 = 解 = limitbreaker
+EX11 = ボ = THIS WAY, no clue why it's "bo" here but meh
+EX12 = 立 = Beeline
+EX16 = 憤 = Anger (not sure if this is distinctly separate in
+                   effect from 怒 but it exists, so...)
+
+
+---------------------------
+GAME OVER SCRIPT
+---------------------------
+
+Debating how to deal with the game over script.
+4行 is how it is originally presented, with each
+line appearing one after the other with the
+passing of each text box, but I feel it doesn't
+do the script justice to truncate it so it fits
+there. Breaking it up into 2 separate text
+boxes to allow more text is probably a safe
+compromise and allows for a more accurate
+presentation of the dialogue.
+
+Take care not to make the English rendering read
+TOO poetically, however tempting that may seem.
+
+\>　その日、ウィンドⅠは静かに息を引き取った
+\>　寿命で死んだ生き物は二度と蘇生できない
+\>　さよなら、ウィンドⅠ
+\>　来世では、元気な体で生まれるといいね
+
+4line version
+(cuts: mention of her dying peacefully, mention of
+ "this way" referring to her natural lifespan
+ running out, slight mod to the final line which
+ more literally feels like "I hope that you are
+ born unto a healthier body in the next life."
+ "Creatures"/"Living things" reduced to the less
+ descriptive "those." SOMEONE is gonna get pissed
+ that I did not interpret 来世 as "afterlife" but
+ imo the implication that one will be born unto
+ a body says to me that a different interpretation
+ is rather appropriate.)
+
+...So yeah, definitely worth modifying this.
+ 
+\> Wind I took her last breath that day.
+\> Those whose life ends this way can't be revived.
+\> Farewell, Wind I.
+\> I hope you are born healthier in the next life.
+ 
+ Wind I took her last breath that day.
+ Those whose life force expires can't be revived.
+ Farewell, Wind I.
+ May you be blessed with a healthier body in the next life.
+//Too big. Maybe just use "all" the space instead
+  of using each line individually? Want to retain
+  the original impact of the presentation...
+
+ Wind I took her last breath that day, and passed
+ away peacefully.
+ Creatures whose life force expires naturally like
+ this cannot be revived.
+
+ Farewell, Wind I.
+ 
+ I hope that a healthier body awaits you in the
+ next life.
+
+Most likely final version: 
+
+***
+\> Wind I took her last breath that day, and passed
+\> away peacefully.
+
+
+***
+\> Wind I took her last breath that day, and passed
+\> away peacefully. Creatures whose natural
+\> life force expires cannot be resurrected.
+
+***
+\> Farewell, Wind I.
+ 
+ 
+
+*** 
+\> Farewell, Wind I.
+\>
+\> I hope that a healthier body awaits you in the
+\> next life.

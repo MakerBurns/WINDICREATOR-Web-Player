@@ -1,0 +1,141 @@
+----------------------------------------------
+*TRANSLATOR'S MEMO*
+----------------------------------------------
+- This is the translated text of the Materials Used
+  and Tips document which is included with Wind I Creator.
+  Links to the resources towards the bottom of this
+  document may or may not still be working.
+
+----------------------------------------------
+*IMPORTANT NOTICE*
+----------------------------------------------
+
+- There are no secret endings or features
+
+----------------------------------------------
+*HINTS*
+----------------------------------------------
+
+- Damage calculation is as follows:
+  (ATK) x (# of Wind Is attacking) / (Enemy DEF)
+ 
+- If you have fewer Wind Is attacking simultaneously than
+  weapons, the excess goes to waste.
+  Ex: 20 Wind Is attacking at once will only be able to use
+      20 weapons; If you have 100 swords, 80 will go unused
+	  in this case.
+
+- If you get stuck, you can just brute force sections by
+  creating LOTS AND LOTS of Wind Is.
+
+- Skills are VERY CLEARLY hit-or-miss in terms of how good
+  or bad they are.
+
+- If you lose the key item required to complete the game,
+  it will VERY OCCASIONALLY appear in the black market for
+  purchase.
+  
+
+----------------------------------------------
+*MATERIALS USED*
+----------------------------------------------
+
+@Various Materials
+
+VIP RPG Maker Thread Material Auto Repository
+http://www.viprpg.org/material/
+
+
+@Audio Resources -----------------------------
+
+soleil-musique
+http://soleilmusique.web.fc2.com/
+
+helix midi area
+http://music.geocities.jp/armedicia/
+
+RPG Maker 2000 Handbook
+
+The Matchmakers 2nd
+http://osabisi.sakura.ne.jp/m2/
+
+Vitachi Materials
+http://www.vita-chi.net/sozai1.htm
+
+Maou Damashii
+http://maoudamashii.jokersounds.com/
+
+Soujou Koukateki MusicFactory
+http://colorfulpaints.blog.fc2.com/
+
+
+
+@Image Resources -----------------------------
+
+Enryudo
+http://www.kyoto.zaq.ne.jp/ya-ra-na-i-ka/top.html
+
+Etagura
+http://eta.websozai.jp/index.html
+
+Usui no Kai RPG Maker Materials Branch
+http://usui.moo.jp/rpg_tukuru.html
+
+Takezou (GRANLORD)
+http://granlord.web.fc2.com/
+
+Bakenekokan Sozaiya
+http://neko.moo.jp/BS/
+
+First Seed Material
+http://www.tekepon.net/fsm
+
+Zodiac Fragment (CLOSED)
+http://zodiacfragment.sakura.ne.jp/
+
+RTP ni Ai wo Komete
+(Put your love into the RTP)
+
+
+
+@Tools I Relied On ---------------------------
+
+TkoolBridge | RPG Maker System Laboratory
+http://suppy.bob.buttobi.net/
+
+Falcon Eye | KumaSoko
+http://vipkuma.web.fc2.com/
+
+Number Picture Tool | KumaSoko
+http://vipkuma.web.fc2.com/
+
+EDGE | TAKABO SOFT
+http://takabosoft.com/edge
+
+
+
+@Battle Animations ---------------------------
+
+Animations I Worked On For Months 4
+-Tune the Rainbow | Damu
+
+
+@Various Miscellany --------------------------
+
+Bukko
+
+
+@Respect -------------------------------------
+
+Games from VIPRPG festivals and repositories.
+Thanks for the many fun kusoge.
+
+
+ 
+@Mad Respect ---------------------------------
+
+Cookie Clicker
+
+Baka's Clinic
+
+
